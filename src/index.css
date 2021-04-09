@@ -1,0 +1,134 @@
+body {
+    background-color: #fff;
+}
+
+#root {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.task {
+    margin: 20px 0 0 20px;
+}
+
+.task-form {
+    margin-top: 60px;
+}
+
+.block-week {
+    display: flex;
+}
+
+.days {
+    margin: 0 10px;
+}
+
+.calendar {
+    text-align: center;
+    max-width: 550px;
+    margin-top: 20px;
+}
+
+.calendar-date {
+    display: flex;
+}
+
+.calendar-arrow {
+    display: flex;
+}
+
+.calendar-month {
+    margin-right: 6px;
+}
+
+.calendar header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-color {
+    color: #3C4043;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.calendar-day {
+    cursor: pointer;
+}
+
+td.calendar-day {
+    padding: 30px;
+    border: 1px solid #a7d2e7;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.arrow {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #5F6368;
+    -webkit-user-select: none;
+   -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.day-week {
+    color: #70758F;
+}
+
+.active-day {
+    background-color: #1A73E8;
+    color: #fff;
+}
+
+.active {
+    background-color: #8AB4F8;
+    color: #1A73E8;
+}
+
+.active.active-day {
+    background-color: #185ABC;
+    color: #fff;
+}
+
+.block-task {
+    margin-top: 25px;
+}
+
+.block-task__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #a7d2e7;
+    border-radius: 6px;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.form-control {
+    border: 1px solid #a7d2e7;
+}
+
+.block-task__item span {
+    cursor: pointer;
+    padding-left: 15px;
+    color: #3C4043;
+}
+
+.block-task__btn button:last-child {
+    margin-left: 10px;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
