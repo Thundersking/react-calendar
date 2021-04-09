@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Table } from 'reactstrap';
+
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -129,14 +131,14 @@ function Calendar({calDate, daysWeek, monthArray, prevClickHandler, nextClickHan
                 </div>
             </header>
 
-            <table onClick={tableClickHandler}>
+            <Table size="sm" onClick={tableClickHandler}>
                 <thead>
                     <tr>
                         {weeks}
                     </tr>
                 </thead>
                 {dayCalendar}
-            </table>
+            </Table>
         </div>
     )
 }
